@@ -1,0 +1,41 @@
+body
+{
+    background-color: #ECF1F0; 
+    color: black; 
+}
+h1
+{	color: gray;
+	font-size: 4.5em;
+	text-align: center;
+	font-family: verdana;
+}
+
+ nav a:link , nav a:visited
+{ 
+ 	text-decoration:none;
+	color: black; 
+} 
+
+nav a:hover /* survol le lien */
+{
+    background-color:  white;
+  	color: gray;
+
+}
+
+
+
+.conteneur 
+{	display: flex;
+    justify-content: space-around;
+
+}
+
+.item
+{  font-size:2em;
+  padding:5px;
+  border:dotted 3px gray;
+  text-align: center;
+  background-color: silver;
+}
+
